@@ -11,8 +11,8 @@ window.addEventListener("load", function() {
                 }
                 container.innerHTML += `<div class="astronaut" style="display: block; background: aliceblue; margin: 10px"> 
                 ${data.firstName} ${data.lastName} 
-                <img class="avatar" src="${data.picture}"
                 <ul>
+                <img class="avatar" src="${data.picture}">
                 <li>Active:${data.active}</li>
                 <li>Hours in Space:${data.hoursInSpace}</li>
                 <li>${skills}</li></ul>
